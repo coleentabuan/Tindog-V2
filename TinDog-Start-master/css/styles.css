@@ -1,9 +1,12 @@
-/* @media (max-width: 880px) {
+@media (max-width: 880px) {
   .title-img {
+    position: static;
+  }
+  .iphone-mockup {
     position: static;
     transform: rotate(0);
   }
-} */
+}
 
 /*title container*/
 
