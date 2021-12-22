@@ -1,8 +1,3 @@
-@media (max-width: 880px) {
-  .title-img {
-    display: none;
-  }
-}
 /*title container*/
 
 #title {
@@ -24,14 +19,15 @@
 }
 
 .iphone-mockup {
-  transform: rotate(25deg);
-  width: 70%;
   position: absolute;
+  transform: rotate(25deg);
+  width: 60%;
   right: 30%;
 }
-.title-img {
+.title-img-container {
   position: relative;
 }
+
 body {
   font-family: "Montserrat", sans-serif;
 }
@@ -48,7 +44,7 @@ h1 {
 
   background-color: white;
   position: relative;
-  z-index: 1;
+  /* z-index: 1; */
 }
 .features-title {
   font-weight: 900;
@@ -111,4 +107,41 @@ h1 {
 }
 .pricing-column {
   padding: 3% 2%;
+}
+.pricing-title {
+  font-weight: 900;
+}
+/* call to action section */
+#cta {
+  background-color: #ff4c68;
+}
+.cta-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  margin: 0 auto;
+  padding: 3% 7%;
+  color: white;
+  width: 70%;
+  text-align: center;
+}
+
+@media screen and (max-width: 990px) {
+  .iphone-mockup {
+    position: static;
+    transform: rotate(0);
+    padding-bottom: 2%;
+  }
+  .title-img {
+    position: static;
+    width: 100%;
+    text-align: center;
+    margin-top: 7%;
+  }
+  .title-download {
+    text-align: center;
+  }
+  .client-testimonials {
+    font-size: 1.5rem;
+  }
 }
